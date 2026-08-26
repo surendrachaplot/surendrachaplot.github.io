@@ -152,22 +152,3 @@
   }
 }
 
-/* Post footer */
-.post-footer {
-  max-width: $col-text;
-  margin: $s-16 auto 0;
-  padding-top: $s-8;
-  border-top: 1px solid $rule;
-
-  &__signature {
-    font-family: $font-display;
-    font-style: italic;
-    font-size: 22px;
-    color: $accent;
-    margin: 0 0 $s-3;
-  }
-  &__more {
-    margin-top: $s-12;
-    .eyebrow { margin-bottom: $s-4; }
-  }
-}

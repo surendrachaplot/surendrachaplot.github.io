@@ -189,7 +189,3 @@
   @media (max-width: $bp-md) { grid-template-columns: 1fr; gap: $s-10; }
 }
 
-.posts-list {
-  display: flex;
-  flex-direction: column;
-}

@@ -8,7 +8,6 @@ baseurl: ""
 
 # Navigation
 nav_links:
-  - { title: "Writing",      url: "/posts/" }
   - { title: "Photographs",  url: "/photos/" }
   - { title: "Books",        url: "/books/" }
 
@@ -25,16 +24,12 @@ established: 1988
 # Build
 markdown: kramdown
 highlighter: rouge
-permalink: /writing/:slug/
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 defaults:
-  - scope: { path: "", type: "posts" }
-    values:
-      layout: post
   - scope: { path: "", type: "pages" }
     values:
       layout: page
