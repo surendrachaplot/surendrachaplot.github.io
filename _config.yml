@@ -34,6 +34,7 @@ defaults:
       layout: page
 
 exclude:
+  - cloudflare-worker
   - Gemfile
   - Gemfile.lock
   - vendor
