@@ -8,7 +8,6 @@ baseurl: ""
 
 # Navigation
 nav_links:
-  - { title: "Photographs",  url: "/photos/" }
   - { title: "Books",        url: "/books/" }
 
 # Social
